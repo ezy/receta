@@ -1,0 +1,6 @@
+.container{"ng-app" => "receta"}
+  .panel
+    %h1{"ng-if" => "name"} Hello, {{name}}
+    %form.form-inline
+      .form-group
+        %input.form-control{:autofocus => "", "ng-model" => "name", :placeholder => "Enter your name", :type => "text"}

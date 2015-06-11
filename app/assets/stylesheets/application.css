@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+
+@import "foundation/css/foundation.min.css";
+@import "foundation/css/normalize.min.css";
